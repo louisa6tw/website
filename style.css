@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    background: #E2E2E2;
+background: -moz-linear-gradient(top, #E2E2E2 0%, #BDDBE0 81%, #8AA6AA 100%);
+background: -webkit-linear-gradient(top, #E2E2E2 0%, #BDDBE0 81%, #8AA6AA 100%);
+background: linear-gradient(to bottom, #E2E2E2 0%, #BDDBE0 81%, #8AA6AA 100%);
+
+}
+h1.mainheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.secheader{
+    font-family: cursive;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+p{
+    font-family: "Gill Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.icon {
+    display: flex;
+	align-items: center;
+  
+}
+
+
+.icon img:hover{
+    opacity:0.5;
+    transition: 0.3s ease;
+    }
+h2.project{
+    flex-direction: column;
+}
+
+a.link:hover{
+    color: deeppink;
+}
