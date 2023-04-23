@@ -13,6 +13,8 @@ h1.mainheader{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom-style: outset;
+    border-color: aliceblue;
 }
 
 h2.secheader{
@@ -46,8 +48,13 @@ align-items: center;
     }
 h2.project{
     flex-direction: column;
+        text-shadow: 3px 4px burlywood;
 }
-
+a.link{
+    border-style: outset;
+    border-color:#8AA6AA;
+    ]
+}
 a.link:hover{
     color: deeppink;
 }
